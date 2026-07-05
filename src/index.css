@@ -1,0 +1,51 @@
+:root {
+  --green: #5c9e3a;
+  --green-dark: #4a7e2e;
+  --green-light: #b5d99c;
+  --green-bg: #eaf4e2;
+
+  --text: #5a5a5a;
+  --text-h: #1a1a1a;
+  --bg: #ffffff;
+  --card-bg: #ffffff;
+  --border: #e0e6dc;
+  --shadow: rgba(60, 100, 40, 0.1) 0 6px 16px -4px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  max-width: 1126px;
+  margin: 0 auto;
+  border-inline: 1px solid var(--border);
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+p {
+  margin: 0;
+}
