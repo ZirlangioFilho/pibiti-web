@@ -95,3 +95,85 @@
   font-size: 14px;
   color: var(--text);
 }
+
+@media (max-width: 768px) {
+  .header {
+    padding: 40px 20px 32px;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .intro {
+    font-size: 15px;
+  }
+
+  .apps-grid {
+    padding: 0 16px 48px;
+    gap: 16px;
+  }
+
+  .app-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 24px 20px;
+  }
+
+  .app-name {
+    font-size: 20px;
+  }
+
+  .download-btn {
+    width: 100%;
+    text-align: center;
+    padding: 12px 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 28px 16px 24px;
+  }
+
+  .header h1 {
+    font-size: 22px;
+  }
+
+  .intro {
+    font-size: 14px;
+  }
+
+  .apps-grid {
+    padding: 0 12px 40px;
+    gap: 12px;
+  }
+
+  .app-card {
+    padding: 20px 16px;
+    max-width: 100%;
+  }
+
+  .app-icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  .app-name {
+    font-size: 18px;
+  }
+
+  .app-desc {
+    font-size: 14px;
+  }
+
+  .download-btn {
+    font-size: 14px;
+    padding: 11px 24px;
+  }
+
+  .footer {
+    padding: 16px;
+    font-size: 13px;
+  }
+}
