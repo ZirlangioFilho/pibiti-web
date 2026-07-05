@@ -27,7 +27,7 @@ function App() {
             <img src={app.icon} alt={app.name} className="app-icon" />
             <h2 className="app-name">{app.name}</h2>
             <p className="app-desc">{app.description}</p>
-            <a href={`/${app.filename}`} className="download-btn" download>
+            <a href="https://github.com/ZirlangioFilho/pibiti-web/releases/download/v1.0.0/WaterQuality.apk" className="download-btn" download>
               Download APK
             </a>
           </div>
